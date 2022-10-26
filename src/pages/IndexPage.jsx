@@ -1,11 +1,11 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 const IndexPage = () => {
   return (
-    <div>
+    <Layout>
         <h1>IndexPage</h1>
-        <button className='btn btn-primary'>buttonTestBootstrap</button>
-    </div>
+    </Layout>
   )
 }
 

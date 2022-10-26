@@ -1,8 +1,13 @@
 import React from 'react'
 
+
 const RegisterPage = () => {
   return (
-    <div>RegisterPage</div>
+   <div>
+    <h1>RegisterPage</h1> 
+   </div>
+     
+    
   )
 }
 
