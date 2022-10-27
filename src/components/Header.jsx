@@ -5,8 +5,8 @@ import {FaBars} from 'react-icons/fa'
 const Header = () => {
   return (
     <div className='header'>
-       <header className="navbar navbar-expand-md navbar-light bg-light px-3">
-        <span className="navbar-text">FireCommerce</span>
+       <header className="navbar navbar-expand-md navbar-light bg-light px-3 shadow bg-white">
+        <Link  style={{textDecoration: "none"}} to="/"><span className="navbar-text">FireCommerce</span></Link>
         <button type="button" className="navbar-toggler"  
         data-bs-toggle="collapse"
         data-bs-target="#navbar-content"
@@ -15,9 +15,7 @@ const Header = () => {
         </button>
         <nav className="collapse navbar-collapse navbar" id="navbar-content">
             <ul className="navbar-nav ms-auto" >
-              <li className="nav-item"><Link to="/" className="nav-link">User</Link></li>
-              <li className="nav-item"><Link to="blog" className="nav-link">Ordres</Link></li>
-              <li className="nav-item"><Link to="blog" className="nav-link">Logout</Link></li>
+              <li className="nav-item"><Link to="blog" className="nav-link">LogIn</Link></li>
               <li className="nav-item"><Link to="blog" className="nav-link">Cart</Link></li>
             </ul>
         </nav>
